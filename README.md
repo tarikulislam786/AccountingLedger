@@ -140,5 +140,18 @@ After adding some accounts you can check all the inserted accounts using this Ge
 While creating journal entry, you may check the fluent validation result as well. As the given snapshot demonstrates that the description field was empty and the debit and credit amount mismatch were calculated so it restricts to create journal entry.
 ![image](https://github.com/user-attachments/assets/59b829fd-f4f1-472c-baf4-3c5c522e6c40)
 
+7) And finally, we can observe the trial balance accessing through Get verb of this endpoint http://localhost:5058/api/trialbalance 
+
+![image](https://github.com/user-attachments/assets/17a7cfec-dadf-4d64-8dbe-6b41fbd27009)
+
+That's all.
+
+You may check the recorded video regarding this backend implementation if it requires some more clarification
+https://mega.nz/file/2BJjmbZC#oGCE9ptIa4Kvnaqu6lp6e1rKin7AjMwqKvRxCCuumh4
+
+For more information
+Whatsapp: +8801926228731
+mail: tarikulislam.cse@gmail.com
+ 
 
 
