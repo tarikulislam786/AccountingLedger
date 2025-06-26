@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35424.110
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingLedger.WebApi", "AccountingLedger.WebApi\AccountingLedger.WebApi.csproj", "{B79943D3-DD5A-45C7-92E7-1131178508F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingLedger.Domain", "..\AccountingLedger.Domain\AccountingLedger.Domain.csproj", "{A91201E4-CD81-424F-9445-435148EF7C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingLedger.Application", "..\AccountingLedger.Application\AccountingLedger.Application.csproj", "{8DED17B6-BB0E-4DA5-887A-065986ED1307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingLedger.Infrastructure", "..\AccountingLedger.Infrastructure\AccountingLedger.Infrastructure.csproj", "{3105A26B-6E0E-4C64-B343-D38F943E8722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E1ACC9EA-2D01-46F8-B08D-4AC9C39CE364}"
+	ProjectSection(SolutionItems) = preProject
+		AccountingLedgerDbSetup.sql = AccountingLedgerDbSetup.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B79943D3-DD5A-45C7-92E7-1131178508F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79943D3-DD5A-45C7-92E7-1131178508F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79943D3-DD5A-45C7-92E7-1131178508F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79943D3-DD5A-45C7-92E7-1131178508F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91201E4-CD81-424F-9445-435148EF7C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91201E4-CD81-424F-9445-435148EF7C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91201E4-CD81-424F-9445-435148EF7C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91201E4-CD81-424F-9445-435148EF7C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DED17B6-BB0E-4DA5-887A-065986ED1307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DED17B6-BB0E-4DA5-887A-065986ED1307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DED17B6-BB0E-4DA5-887A-065986ED1307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DED17B6-BB0E-4DA5-887A-065986ED1307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3105A26B-6E0E-4C64-B343-D38F943E8722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3105A26B-6E0E-4C64-B343-D38F943E8722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3105A26B-6E0E-4C64-B343-D38F943E8722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3105A26B-6E0E-4C64-B343-D38F943E8722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
